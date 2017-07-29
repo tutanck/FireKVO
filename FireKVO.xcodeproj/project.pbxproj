@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDAA8BB1F2C665400F1A5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8BA1F2C665400F1A5A2 /* AppDelegate.swift */; };
+		4EDAA8BD1F2C665400F1A5A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */; };
+		4EDAA8C01F2C665400F1A5A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAA8BE1F2C665400F1A5A2 /* Main.storyboard */; };
+		4EDAA8C21F2C665400F1A5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAA8C11F2C665400F1A5A2 /* Assets.xcassets */; };
+		4EDAA8C51F2C665400F1A5A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAA8C31F2C665400F1A5A2 /* LaunchScreen.storyboard */; };
+		4EDAA8D01F2C665500F1A5A2 /* FireKVOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8CF1F2C665500F1A5A2 /* FireKVOTests.swift */; };
+		4EDAA8DB1F2C665500F1A5A2 /* FireKVOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8DA1F2C665500F1A5A2 /* FireKVOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDAA8CC1F2C665500F1A5A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDAA8AF1F2C665400F1A5A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDAA8B61F2C665400F1A5A2;
+			remoteInfo = FireKVO;
+		};
+		4EDAA8D71F2C665500F1A5A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDAA8AF1F2C665400F1A5A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDAA8B61F2C665400F1A5A2;
+			remoteInfo = FireKVO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EDAA8B71F2C665400F1A5A2 /* FireKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDAA8BA1F2C665400F1A5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EDAA8BF1F2C665400F1A5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EDAA8C11F2C665400F1A5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EDAA8C41F2C665400F1A5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EDAA8C61F2C665400F1A5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDAA8CB1F2C665500F1A5A2 /* FireKVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireKVOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDAA8CF1F2C665500F1A5A2 /* FireKVOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireKVOTests.swift; sourceTree = "<group>"; };
+		4EDAA8D11F2C665500F1A5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDAA8D61F2C665500F1A5A2 /* FireKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDAA8DA1F2C665500F1A5A2 /* FireKVOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireKVOUITests.swift; sourceTree = "<group>"; };
+		4EDAA8DC1F2C665500F1A5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDAA8B41F2C665400F1A5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAA8C81F2C665500F1A5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAA8D31F2C665500F1A5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDAA8AE1F2C665400F1A5A2 = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8B91F2C665400F1A5A2 /* FireKVO */,
+				4EDAA8CE1F2C665500F1A5A2 /* FireKVOTests */,
+				4EDAA8D91F2C665500F1A5A2 /* FireKVOUITests */,
+				4EDAA8B81F2C665400F1A5A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDAA8B81F2C665400F1A5A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8B71F2C665400F1A5A2 /* FireKVO.app */,
+				4EDAA8CB1F2C665500F1A5A2 /* FireKVOTests.xctest */,
+				4EDAA8D61F2C665500F1A5A2 /* FireKVOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDAA8B91F2C665400F1A5A2 /* FireKVO */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8BA1F2C665400F1A5A2 /* AppDelegate.swift */,
+				4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */,
+				4EDAA8BE1F2C665400F1A5A2 /* Main.storyboard */,
+				4EDAA8C11F2C665400F1A5A2 /* Assets.xcassets */,
+				4EDAA8C31F2C665400F1A5A2 /* LaunchScreen.storyboard */,
+				4EDAA8C61F2C665400F1A5A2 /* Info.plist */,
+			);
+			path = FireKVO;
+			sourceTree = "<group>";
+		};
+		4EDAA8CE1F2C665500F1A5A2 /* FireKVOTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8CF1F2C665500F1A5A2 /* FireKVOTests.swift */,
+				4EDAA8D11F2C665500F1A5A2 /* Info.plist */,
+			);
+			path = FireKVOTests;
+			sourceTree = "<group>";
+		};
+		4EDAA8D91F2C665500F1A5A2 /* FireKVOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8DA1F2C665500F1A5A2 /* FireKVOUITests.swift */,
+				4EDAA8DC1F2C665500F1A5A2 /* Info.plist */,
+			);
+			path = FireKVOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDAA8B61F2C665400F1A5A2 /* FireKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAA8DF1F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVO" */;
+			buildPhases = (
+				4EDAA8B31F2C665400F1A5A2 /* Sources */,
+				4EDAA8B41F2C665400F1A5A2 /* Frameworks */,
+				4EDAA8B51F2C665400F1A5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireKVO;
+			productName = FireKVO;
+			productReference = 4EDAA8B71F2C665400F1A5A2 /* FireKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EDAA8CA1F2C665500F1A5A2 /* FireKVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAA8E21F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOTests" */;
+			buildPhases = (
+				4EDAA8C71F2C665500F1A5A2 /* Sources */,
+				4EDAA8C81F2C665500F1A5A2 /* Frameworks */,
+				4EDAA8C91F2C665500F1A5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDAA8CD1F2C665500F1A5A2 /* PBXTargetDependency */,
+			);
+			name = FireKVOTests;
+			productName = FireKVOTests;
+			productReference = 4EDAA8CB1F2C665500F1A5A2 /* FireKVOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EDAA8D51F2C665500F1A5A2 /* FireKVOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAA8E51F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOUITests" */;
+			buildPhases = (
+				4EDAA8D21F2C665500F1A5A2 /* Sources */,
+				4EDAA8D31F2C665500F1A5A2 /* Frameworks */,
+				4EDAA8D41F2C665500F1A5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDAA8D81F2C665500F1A5A2 /* PBXTargetDependency */,
+			);
+			name = FireKVOUITests;
+			productName = FireKVOUITests;
+			productReference = 4EDAA8D61F2C665500F1A5A2 /* FireKVOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDAA8AF1F2C665400F1A5A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DevArtisant;
+				TargetAttributes = {
+					4EDAA8B61F2C665400F1A5A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H9A6R5Z86A;
+						ProvisioningStyle = Automatic;
+					};
+					4EDAA8CA1F2C665500F1A5A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H9A6R5Z86A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EDAA8B61F2C665400F1A5A2;
+					};
+					4EDAA8D51F2C665500F1A5A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H9A6R5Z86A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EDAA8B61F2C665400F1A5A2;
+					};
+				};
+			};
+			buildConfigurationList = 4EDAA8B21F2C665400F1A5A2 /* Build configuration list for PBXProject "FireKVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDAA8AE1F2C665400F1A5A2;
+			productRefGroup = 4EDAA8B81F2C665400F1A5A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDAA8B61F2C665400F1A5A2 /* FireKVO */,
+				4EDAA8CA1F2C665500F1A5A2 /* FireKVOTests */,
+				4EDAA8D51F2C665500F1A5A2 /* FireKVOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDAA8B51F2C665400F1A5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAA8C51F2C665400F1A5A2 /* LaunchScreen.storyboard in Resources */,
+				4EDAA8C21F2C665400F1A5A2 /* Assets.xcassets in Resources */,
+				4EDAA8C01F2C665400F1A5A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAA8C91F2C665500F1A5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAA8D41F2C665500F1A5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDAA8B31F2C665400F1A5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAA8BD1F2C665400F1A5A2 /* ViewController.swift in Sources */,
+				4EDAA8BB1F2C665400F1A5A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAA8C71F2C665500F1A5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAA8D01F2C665500F1A5A2 /* FireKVOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAA8D21F2C665500F1A5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAA8DB1F2C665500F1A5A2 /* FireKVOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EDAA8CD1F2C665500F1A5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDAA8B61F2C665400F1A5A2 /* FireKVO */;
+			targetProxy = 4EDAA8CC1F2C665500F1A5A2 /* PBXContainerItemProxy */;
+		};
+		4EDAA8D81F2C665500F1A5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDAA8B61F2C665400F1A5A2 /* FireKVO */;
+			targetProxy = 4EDAA8D71F2C665500F1A5A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EDAA8BE1F2C665400F1A5A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDAA8BF1F2C665400F1A5A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EDAA8C31F2C665400F1A5A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDAA8C41F2C665400F1A5A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDAA8DD1F2C665500F1A5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EDAA8DE1F2C665500F1A5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDAA8E01F2C665500F1A5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9A6R5Z86A;
+				INFOPLIST_FILE = FireKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devartisant.FireKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EDAA8E11F2C665500F1A5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9A6R5Z86A;
+				INFOPLIST_FILE = FireKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devartisant.FireKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EDAA8E31F2C665500F1A5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9A6R5Z86A;
+				INFOPLIST_FILE = FireKVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devartisant.FireKVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireKVO.app/FireKVO";
+			};
+			name = Debug;
+		};
+		4EDAA8E41F2C665500F1A5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9A6R5Z86A;
+				INFOPLIST_FILE = FireKVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devartisant.FireKVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireKVO.app/FireKVO";
+			};
+			name = Release;
+		};
+		4EDAA8E61F2C665500F1A5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H9A6R5Z86A;
+				INFOPLIST_FILE = FireKVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devartisant.FireKVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FireKVO;
+			};
+			name = Debug;
+		};
+		4EDAA8E71F2C665500F1A5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H9A6R5Z86A;
+				INFOPLIST_FILE = FireKVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devartisant.FireKVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FireKVO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDAA8B21F2C665400F1A5A2 /* Build configuration list for PBXProject "FireKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAA8DD1F2C665500F1A5A2 /* Debug */,
+				4EDAA8DE1F2C665500F1A5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDAA8DF1F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAA8E01F2C665500F1A5A2 /* Debug */,
+				4EDAA8E11F2C665500F1A5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EDAA8E21F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAA8E31F2C665500F1A5A2 /* Debug */,
+				4EDAA8E41F2C665500F1A5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EDAA8E51F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAA8E61F2C665500F1A5A2 /* Debug */,
+				4EDAA8E71F2C665500F1A5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDAA8AF1F2C665400F1A5A2 /* Project object */;
+}
