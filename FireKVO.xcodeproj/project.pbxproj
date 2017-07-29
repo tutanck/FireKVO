@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7A4BA20B5098A0DAA74D0C /* Pods_FireKVOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D1EEFF5E517AAEC438090B /* Pods_FireKVOUITests.framework */; };
 		4EDAA8BB1F2C665400F1A5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8BA1F2C665400F1A5A2 /* AppDelegate.swift */; };
 		4EDAA8BD1F2C665400F1A5A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */; };
 		4EDAA8C01F2C665400F1A5A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAA8BE1F2C665400F1A5A2 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		4EDAA8C51F2C665400F1A5A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAA8C31F2C665400F1A5A2 /* LaunchScreen.storyboard */; };
 		4EDAA8D01F2C665500F1A5A2 /* FireKVOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8CF1F2C665500F1A5A2 /* FireKVOTests.swift */; };
 		4EDAA8DB1F2C665500F1A5A2 /* FireKVOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8DA1F2C665500F1A5A2 /* FireKVOUITests.swift */; };
+		4EDAA8E91F2C6E3200F1A5A2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8E81F2C6E3200F1A5A2 /* Configuration.swift */; };
+		4EDAA8EB1F2C6E8500F1A5A2 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8EA1F2C6E8500F1A5A2 /* ConfigurationManager.swift */; };
+		4EDAA8F01F2C7A1C00F1A5A2 /* DBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8EF1F2C7A1C00F1A5A2 /* DBObject.swift */; };
+		4EDAA8F41F2C7DB300F1A5A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAA8F31F2C7DB300F1A5A2 /* GoogleService-Info.plist */; };
+		4EDAA8FA1F2D02CF00F1A5A2 /* FireConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8F91F2D02CF00F1A5A2 /* FireConfiguration.swift */; };
+		4EDAA8FC1F2D02F900F1A5A2 /* FireConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8FB1F2D02F900F1A5A2 /* FireConfigurationManager.swift */; };
+		4EDAA8FE1F2D08E000F1A5A2 /* FireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAA8FD1F2D08E000F1A5A2 /* FireViewController.swift */; };
+		608798B035640DC70BA344D7 /* Pods_FireKVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D76D1E415A9F576ED2C0A1D /* Pods_FireKVO.framework */; };
+		9E5B8A05D04E78E39E583405 /* Pods_FireKVOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4989087633FF0EEAFCA79C94 /* Pods_FireKVOTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144AEDBC3FF21CBAAA28A8AD /* Pods-FireKVOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireKVOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireKVOTests/Pods-FireKVOTests.release.xcconfig"; sourceTree = "<group>"; };
+		24D1EEFF5E517AAEC438090B /* Pods_FireKVOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireKVOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D78AD6AE04A76948AFF6352 /* Pods-FireKVOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireKVOUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireKVOUITests/Pods-FireKVOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4989087633FF0EEAFCA79C94 /* Pods_FireKVOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireKVOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E01F158EE1A416B796393A8 /* Pods-FireKVOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireKVOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireKVOTests/Pods-FireKVOTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EDAA8B71F2C665400F1A5A2 /* FireKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDAA8BA1F2C665400F1A5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,17 @@
 		4EDAA8D61F2C665500F1A5A2 /* FireKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDAA8DA1F2C665500F1A5A2 /* FireKVOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireKVOUITests.swift; sourceTree = "<group>"; };
 		4EDAA8DC1F2C665500F1A5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDAA8E81F2C6E3200F1A5A2 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		4EDAA8EA1F2C6E8500F1A5A2 /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		4EDAA8EF1F2C7A1C00F1A5A2 /* DBObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBObject.swift; sourceTree = "<group>"; };
+		4EDAA8F31F2C7DB300F1A5A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4EDAA8F91F2D02CF00F1A5A2 /* FireConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireConfiguration.swift; sourceTree = "<group>"; };
+		4EDAA8FB1F2D02F900F1A5A2 /* FireConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireConfigurationManager.swift; sourceTree = "<group>"; };
+		4EDAA8FD1F2D08E000F1A5A2 /* FireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireViewController.swift; sourceTree = "<group>"; };
+		6D76D1E415A9F576ED2C0A1D /* Pods_FireKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA08176E888D1E9686D3C9EC /* Pods-FireKVOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireKVOUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireKVOUITests/Pods-FireKVOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBC7268D64018FB80E7FBD44 /* Pods-FireKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireKVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireKVO/Pods-FireKVO.release.xcconfig"; sourceTree = "<group>"; };
+		F22C2B53CD4513EAA91E9B7B /* Pods-FireKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireKVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireKVO/Pods-FireKVO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608798B035640DC70BA344D7 /* Pods_FireKVO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5B8A05D04E78E39E583405 /* Pods_FireKVOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7A4BA20B5098A0DAA74D0C /* Pods_FireKVOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				4EDAA8CE1F2C665500F1A5A2 /* FireKVOTests */,
 				4EDAA8D91F2C665500F1A5A2 /* FireKVOUITests */,
 				4EDAA8B81F2C665400F1A5A2 /* Products */,
+				943ADEF913999F39E9A3AFAD /* Pods */,
+				A94D22B3D091B2C0626AE766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +128,13 @@
 		4EDAA8B91F2C665400F1A5A2 /* FireKVO */ = {
 			isa = PBXGroup;
 			children = (
+				4EDAA8ED1F2C79A900F1A5A2 /* FireKVO */,
+				4EDAA8EC1F2C791C00F1A5A2 /* Examples */,
 				4EDAA8BA1F2C665400F1A5A2 /* AppDelegate.swift */,
-				4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */,
 				4EDAA8BE1F2C665400F1A5A2 /* Main.storyboard */,
 				4EDAA8C11F2C665400F1A5A2 /* Assets.xcassets */,
 				4EDAA8C31F2C665400F1A5A2 /* LaunchScreen.storyboard */,
+				4EDAA8F31F2C7DB300F1A5A2 /* GoogleService-Info.plist */,
 				4EDAA8C61F2C665400F1A5A2 /* Info.plist */,
 			);
 			path = FireKVO;
@@ -125,6 +158,66 @@
 			path = FireKVOUITests;
 			sourceTree = "<group>";
 		};
+		4EDAA8EC1F2C791C00F1A5A2 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8F81F2D027500F1A5A2 /* FireConfigurationManager */,
+				4EDAA8F71F2CD9BB00F1A5A2 /* ConfigurationManager */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		4EDAA8ED1F2C79A900F1A5A2 /* FireKVO */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8EF1F2C7A1C00F1A5A2 /* DBObject.swift */,
+			);
+			name = FireKVO;
+			sourceTree = "<group>";
+		};
+		4EDAA8F71F2CD9BB00F1A5A2 /* ConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8E81F2C6E3200F1A5A2 /* Configuration.swift */,
+				4EDAA8EA1F2C6E8500F1A5A2 /* ConfigurationManager.swift */,
+				4EDAA8BC1F2C665400F1A5A2 /* ViewController.swift */,
+			);
+			name = ConfigurationManager;
+			sourceTree = "<group>";
+		};
+		4EDAA8F81F2D027500F1A5A2 /* FireConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAA8F91F2D02CF00F1A5A2 /* FireConfiguration.swift */,
+				4EDAA8FB1F2D02F900F1A5A2 /* FireConfigurationManager.swift */,
+				4EDAA8FD1F2D08E000F1A5A2 /* FireViewController.swift */,
+			);
+			name = FireConfigurationManager;
+			sourceTree = "<group>";
+		};
+		943ADEF913999F39E9A3AFAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F22C2B53CD4513EAA91E9B7B /* Pods-FireKVO.debug.xcconfig */,
+				EBC7268D64018FB80E7FBD44 /* Pods-FireKVO.release.xcconfig */,
+				4E01F158EE1A416B796393A8 /* Pods-FireKVOTests.debug.xcconfig */,
+				144AEDBC3FF21CBAAA28A8AD /* Pods-FireKVOTests.release.xcconfig */,
+				2D78AD6AE04A76948AFF6352 /* Pods-FireKVOUITests.debug.xcconfig */,
+				BA08176E888D1E9686D3C9EC /* Pods-FireKVOUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A94D22B3D091B2C0626AE766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D76D1E415A9F576ED2C0A1D /* Pods_FireKVO.framework */,
+				4989087633FF0EEAFCA79C94 /* Pods_FireKVOTests.framework */,
+				24D1EEFF5E517AAEC438090B /* Pods_FireKVOUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDAA8DF1F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVO" */;
 			buildPhases = (
+				2984AE1D0B618B0279F326C6 /* [CP] Check Pods Manifest.lock */,
 				4EDAA8B31F2C665400F1A5A2 /* Sources */,
 				4EDAA8B41F2C665400F1A5A2 /* Frameworks */,
 				4EDAA8B51F2C665400F1A5A2 /* Resources */,
+				45B5447C0E0B6BB42E85461F /* [CP] Embed Pods Frameworks */,
+				7571BA9B34CB16A28B6BB74A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDAA8E21F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOTests" */;
 			buildPhases = (
+				7A6FF6DC499B89DB570343A6 /* [CP] Check Pods Manifest.lock */,
 				4EDAA8C71F2C665500F1A5A2 /* Sources */,
 				4EDAA8C81F2C665500F1A5A2 /* Frameworks */,
 				4EDAA8C91F2C665500F1A5A2 /* Resources */,
+				BB17A84E5DEC57EF02035B67 /* [CP] Embed Pods Frameworks */,
+				E3B1A3960EE87AB5DEB94276 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EDAA8E51F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOUITests" */;
 			buildPhases = (
+				5AFEB180B7F89C7414B7ED2E /* [CP] Check Pods Manifest.lock */,
 				4EDAA8D21F2C665500F1A5A2 /* Sources */,
 				4EDAA8D31F2C665500F1A5A2 /* Frameworks */,
 				4EDAA8D41F2C665500F1A5A2 /* Resources */,
+				DB51E5EAF7312E3260ABF358 /* [CP] Embed Pods Frameworks */,
+				2C985FCADD91CE6EB654980E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDAA8C51F2C665400F1A5A2 /* LaunchScreen.storyboard in Resources */,
+				4EDAA8F41F2C7DB300F1A5A2 /* GoogleService-Info.plist in Resources */,
 				4EDAA8C21F2C665400F1A5A2 /* Assets.xcassets in Resources */,
 				4EDAA8C01F2C665400F1A5A2 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +360,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2984AE1D0B618B0279F326C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C985FCADD91CE6EB654980E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireKVOUITests/Pods-FireKVOUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B5447C0E0B6BB42E85461F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireKVO/Pods-FireKVO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AFEB180B7F89C7414B7ED2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7571BA9B34CB16A28B6BB74A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireKVO/Pods-FireKVO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6FF6DC499B89DB570343A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB17A84E5DEC57EF02035B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireKVOTests/Pods-FireKVOTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB51E5EAF7312E3260ABF358 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireKVOUITests/Pods-FireKVOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B1A3960EE87AB5DEB94276 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireKVOTests/Pods-FireKVOTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EDAA8B31F2C665400F1A5A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDAA8FE1F2D08E000F1A5A2 /* FireViewController.swift in Sources */,
+				4EDAA8EB1F2C6E8500F1A5A2 /* ConfigurationManager.swift in Sources */,
+				4EDAA8FC1F2D02F900F1A5A2 /* FireConfigurationManager.swift in Sources */,
+				4EDAA8E91F2C6E3200F1A5A2 /* Configuration.swift in Sources */,
+				4EDAA8FA1F2D02CF00F1A5A2 /* FireConfiguration.swift in Sources */,
 				4EDAA8BD1F2C665400F1A5A2 /* ViewController.swift in Sources */,
+				4EDAA8F01F2C7A1C00F1A5A2 /* DBObject.swift in Sources */,
 				4EDAA8BB1F2C665400F1A5A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +662,7 @@
 		};
 		4EDAA8E01F2C665500F1A5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22C2B53CD4513EAA91E9B7B /* Pods-FireKVO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9A6R5Z86A;
@@ -428,6 +676,7 @@
 		};
 		4EDAA8E11F2C665500F1A5A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC7268D64018FB80E7FBD44 /* Pods-FireKVO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9A6R5Z86A;
@@ -441,6 +690,7 @@
 		};
 		4EDAA8E31F2C665500F1A5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E01F158EE1A416B796393A8 /* Pods-FireKVOTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +706,7 @@
 		};
 		4EDAA8E41F2C665500F1A5A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144AEDBC3FF21CBAAA28A8AD /* Pods-FireKVOTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +722,7 @@
 		};
 		4EDAA8E61F2C665500F1A5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D78AD6AE04A76948AFF6352 /* Pods-FireKVOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = H9A6R5Z86A;
@@ -485,6 +737,7 @@
 		};
 		4EDAA8E71F2C665500F1A5A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA08176E888D1E9686D3C9EC /* Pods-FireKVOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = H9A6R5Z86A;
@@ -516,6 +769,7 @@
 				4EDAA8E11F2C665500F1A5A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EDAA8E21F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +778,7 @@
 				4EDAA8E41F2C665500F1A5A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EDAA8E51F2C665500F1A5A2 /* Build configuration list for PBXNativeTarget "FireKVOUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +787,7 @@
 				4EDAA8E71F2C665500F1A5A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
